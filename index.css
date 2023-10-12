@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(9, 9, 104);
+}
+.maindiv{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-top: 20px;
+ 
+}
+.nav1{
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    list-style-type:none;
+ 
+}
+li{
+    padding: 10px;
+}
+.signup{
+    padding: 8px;
+    background-color:rgb(23, 130, 231);
+    border-radius: 20px;
+}
+.belovwnav{
+ position: relative;
+ left: 50%;
+ padding: 8%;
+ transform: translate(-55%);
+   width: 750px; 
+}
+.header{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.para{
+    font-weight: 500px;
+font-size: 22px;
+text-align:center;
+color:  #FFFFFF;
+padding-top: 3%;
+}
+.inp{
+    height: 50px;
+    width: 350px;
+    border-radius: 40px;
+    color:grey;
+    text-align: center;
+}
+button{
+ margin: 5px;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #25DAC5;
+    border:1px solid #25DAC5 ;
+}
+.line{
+    padding-top: 10px;
+    color:grey;
+text-align: center;
+}
+.lst{
+    padding: 5%;
+}
+li:hover{
+background-color: cyan;
+border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(209, 28, 185);
+    color: white;
+    box-shadow: 2px 2px 2px  2px rgb(209, 28, 185) ;
+
+border-radius: 30px;
+}
